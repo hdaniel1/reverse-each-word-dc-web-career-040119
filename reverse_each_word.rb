@@ -6,4 +6,11 @@ def reverse_each_word(string)
 
   end
   return new2.join(" ")
+
+  new.collect do |word|
+      word = word.reverse()
+
+    end
+    return new.join(" ")
+  end
 end
